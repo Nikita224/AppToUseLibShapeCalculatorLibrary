@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ShapeCalculatorLibrary">
+      <HintPath>..\..\ShapeCalculatorLibrary\ShapeCalculatorLibrary\bin\Debug\net6.0\ShapeCalculatorLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
